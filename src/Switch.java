@@ -22,7 +22,7 @@ public class Switch {
             monthName += " October";
             monthName += " December";
                      break;
-            default: monthName = "No month has "+days+" days in year of 2016";
+            default: monthName = "No month has exactly "+days+" days in year of 2016";
                      break;
         }
         System.out.println(monthName);
